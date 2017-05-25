@@ -120,7 +120,7 @@ $ cd /var/www/laravel
 $ composer install
 ```
 
-Dependencies installation will take some time. After than set proper permissions on files.
+Dependencies installation will take some time. After that set proper permissions on files.
 
 ```
 $ chown -R www-data.www-data /var/www/laravel
