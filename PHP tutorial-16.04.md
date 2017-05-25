@@ -1,4 +1,4 @@
-﻿# PHP INSTALLATION ON UBUNTU-16.04
+# <p align="center"> PHP INSTALLATION ON UBUNTU-16.04</p>
 
 #### What is PHP?
 
@@ -33,7 +33,7 @@ First, we need to update our local package index to make sure we have a fresh li
 
 ```$ sudo apt-get update```
 
-* ### Step-1:Installing PHP 5.6
+* ### Step-1:Installing PHP 7.0
 
 To install PHP, first you need to install Apache and MySql.
 Now download php using the below commands.
