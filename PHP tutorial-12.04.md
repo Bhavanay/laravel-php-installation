@@ -1,4 +1,4 @@
-﻿# PHP INSTALLATION IN UBUNTU-12.04
+﻿# <p align="center">PHP INSTALLATION IN UBUNTU-12.04</p>
 
 #### What is PHP?
 
