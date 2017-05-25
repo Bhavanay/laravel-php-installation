@@ -33,7 +33,7 @@ First, we need to update our local package index to make sure we have a fresh li
 
 ```$ sudo apt-get update```
 
-* ### Step-1:Installing PHP 7.0
+* ### Step-1:Installing PHP 
 
 To install PHP, first you need to install Apache and MySql.
 Now download php using the below commands.
@@ -52,7 +52,7 @@ or
 $ apt-get install python-software-properties
 ```
 
-#### What is Apache2?
+#### What is Apache?
 
  Apache is the most popular Web server software. It enables a computer to host one or more websites that can be accessed over the Internet using a Web browser. Most Apache installations include a URL rewriting module called "mod_rewrite," which has become a common way for webmasters to create custom URLs.
 
