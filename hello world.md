@@ -118,7 +118,9 @@ List processes with php in it
 
 example output
 ```
-501 9347 393 0 1:29PM ttys000 0:00.21 php artisan serve 501 9351 9347 0 1:29PM ttys000 0:02.01 /usr/local/php5-5.6.14-20151002-085853/bin/php -S localhost:8000 .../laravel/server.php 501 9781 393 0 1:56PM ttys000 0:00.00 grep php
+501 9347 393 0 1:29PM ttys000 0:00.21 php artisan serve
+501 9351 9347 0 1:29PM ttys000 0:02.01 /usr/local/php5-5.6.14-20151002-085853/bin/php -S localhost:8000 .../laravel/server.php
+501 9781 393 0 1:56PM ttys000 0:00.00 grep php
 ```
 
 Then kill the process, using the below command
