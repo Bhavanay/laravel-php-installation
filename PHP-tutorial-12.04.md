@@ -33,6 +33,8 @@ First, we need to update our local package index to make sure we have a fresh li
 
 ```$ apt-get update```
 
+![Output](1.png)
+
 ### Step-1:Installing PHP
 
 To install PHP, first you need to install Apache and MySql.
@@ -42,6 +44,10 @@ $ add-apt-repository ppa:ondrej/php
 $ apt-get update
 $ apt-get install -y php5.6 php5.6-mcrypt php5.6-gd
 ```
+
+![Output](2.png)
+
+![Output](3.png)
 
 * Note:If there is an error in add-apt-repository, then try below command
 ```
@@ -62,6 +68,8 @@ To install Apache2, use the following command
 
 ```$ apt-get install apache2 libapache2-mod-php5```
 
+![Output](4.png)
+
 #### What is MySQL?
 
  MySQL is a fast, easy-to-use RDBMS being used for many small and big businesses. It handles a large subset of the functionality of the most expensive and powerful database packages.
@@ -79,6 +87,8 @@ To install Apache2, use the following command
 To install MySql, use the below command
 
 ```$ apt-get install mysql-server php5-mysql```
+
+![Output](5.png)
 
 If there is any error in connecting MySql to PHP:
 
@@ -99,6 +109,8 @@ Note:If mbstring missing error occurs, then follow the below command
 
 ```$sudo apt-get install php5.6-mbstring php5.6-dom```
 
+![Output](6.png)
+
 #### What is Laravel?
 
 Laravel is a free, open-source PHP web framework, created for the development of web applications following the model–view–controller (MVC) architectural pattern. Some of the features of Laravel are a modular packaging system with a dedicated dependency manager, different ways for accessing relational databases, utilities that aid in application deployment and maintenance.
@@ -112,6 +124,7 @@ $ cd /var/www
 $ apt-get install git
 $ git clone https://github.com/laravel/laravel.git
 ```
+![Output](7.png)
 
 Navigate to Laravel code directory and use composer to install all dependencies required for Laravel framework.
 
@@ -127,6 +140,8 @@ $ chown -R www-data.www-data /var/www/laravel
 $ chmod -R 755 /var/www/laravel
 $ chmod -R 777 /var/www/laravel/app/storage
 ```
+
+![Output](8.png)
 
 ### Step-6:Set Encryption Key
 
@@ -147,6 +162,8 @@ Now edit config/app.php configuration file and update above generated applicatio
  You have PHP installed locally and you would like to use PHP's built-in development server to serve your application, you may use the serve Artisan command. This command will start a development server at http://localhost:8000:
 
 ```$ php artisan serve```
+
+![Output](9.png)
 
 Your output will look like this
 
