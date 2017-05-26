@@ -78,7 +78,7 @@ To install Apache2, use the following command
 
 To install MySql, use the below command
 
-```$ apt-get install mysql-server php5.6-mysql```
+```$ apt-get install mysql-server php5-mysql```
 
 If there is any error in connecting MySql to PHP:
 
@@ -151,4 +151,6 @@ Now edit config/app.php configuration file and update above generated applicatio
 Your output will look like this
 
 ![Output](output.png)
+
+* ### [Shell Script](php-12.04.sh)
 

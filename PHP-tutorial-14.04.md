@@ -60,7 +60,7 @@ $ apt-get install python-software-properties
 
 To install Apache2, use the following command
 
-```$ apt-get install apache2 libapache2-mod-php5```
+```$ apt-get install apache2 libapache2-mod-php5.6```
 
 #### What is MySQL?
 
@@ -91,7 +91,7 @@ Composer is not a package Manager.It is a tool for dependency management in PHP.
 * ### Step-4:Installing Composer
 Install by using following commands
 ```
-$ curl -sS https://getcomposer.org/installer | php
+$ curl -sS https://getcomposer.org/installer | php5.6
 $ sudo mv composer.phar /usr/local/bin/composer
 $ sudo chmod +x /usr/local/bin/composer
 ```
@@ -152,4 +152,4 @@ Your output will look like this
 
 ![Output](output.png)
 
-
+* ### [Shell Script](php-14.04.sh)
