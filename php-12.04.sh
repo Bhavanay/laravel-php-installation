@@ -6,7 +6,7 @@ apt-get install python-software-properties;
 echo "installing PHP"
 add-apt-repository ppa:ondrej/php;
 apt-get update;
-sapt-get install -y php5.6 php5.6-mcrypt php5.6-gd;
+apt-get install -y php5.6 php5.6-mcrypt php5.6-gd;
 echo "installing apache2"
 apt-get install apache2 libapache2-mod-php5;
 echo "installing mysql"
