@@ -1,12 +1,14 @@
-* ### [PHP installation on ubuntu 12.04](PHP-tutorial-12.04.md)
-* ### [PHP installation on ubuntu 14.04](PHP-tutorial-14.04.md)
-* ### [PHP installation on ubuntu 16.04](PHP-tutorial-16.04.md)
-* ### [Shell Script for PHP installation on ubuntu 12.04](php-12.04.sh)
-* ### [Shell Script for PHP installation on ubuntu 14.04](php-14.04.sh)
-* ### [Shell Script for PHP installation on ubuntu 16.04](php-16.04.sh)
-* ### [Hello World App](hello-world.md)
+# <p align="center"> PHP INSTALLATION USING LARAVEL ON UBUNTU</p>
+
+This repository contains step by step procedure for the installation of php using laravel on ubuntu versions-12.04, 14.04 and 16.04.
+
+For installation process on ubuntu-12.04 along with the shell script, read [php-ubuntu-12.04.md](php-ubuntu-12.04.md).
+
+For installation process on ubuntu-14.04 along with the shell script, read [php-ubuntu-12.04.md](php-ubuntu-12.04.md).
+
+For installation process on ubuntu-14.04 along with the shell script, read [php-ubuntu-12.04.md](php-ubuntu-12.04.md).
+
+For sample Hello World App, read [hello-world.md](hello-world.md].
 
 
-
-
-
+ 
