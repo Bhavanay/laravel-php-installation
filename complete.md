@@ -1,13 +1,15 @@
-* #### For installation process on ubuntu-12.04:[Click Here](PHP-tutorial-12.04.md)
+# <p align="center"> PHP INSTALLATION ON UBUNTU</p>
 
-* #### For installation process on ubuntu-14.04:[Click Here](PHP-tutorial-14.04.md)
+* #### For installation process on ubuntu-12.04:[Click Here](https://github.com/Greycampus/phplaravel/blob/master/Documents/ubuntu-12.04.md)
 
-* #### For installation process on ubuntu-16.04:[Click Here](PHP-tutorial-16.04.md)
+* #### For installation process on ubuntu-14.04:[Click Here](https://github.com/Greycampus/phplaravel/blob/master/Documents/ubuntu-14.04.md)
 
-* #### For sample hello-world app:[Click Here](hello-world.md)
+* #### For installation process on ubuntu-16.04:[Click Here](https://github.com/Greycampus/phplaravel/blob/master/Documents/ubuntu-16.04.md)
+
+* #### For sample hello-world app:[Click Here](https://github.com/Greycampus/phplaravel/blob/master/hello-world.md)
 
 
-﻿# <p align="center"> PHP INSTALLATION ON UBUNTU-12.04</p>
+# <p align="center"> PHP INSTALLATION ON UBUNTU-12.04</p>
 
 #### What is PHP?
 
@@ -42,7 +44,7 @@ First, we need to update our local package index to make sure we have a fresh li
 
 ```$ apt-get update```
 
-![Output](1.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/1.png)
 
 ### Step-1:Installing PHP
 
@@ -54,9 +56,9 @@ $ apt-get update
 $ apt-get install -y php5.6 php5.6-mcrypt php5.6-gd
 ```
 
-![Output](2.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/2.png)
 
-![Output](3.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/3.png)
 
 * Note:If there is an error in add-apt-repository, then try below command
 ```
@@ -77,7 +79,7 @@ To install Apache2, use the following command
 
 ```$ apt-get install apache2 libapache2-mod-php5```
 
-![Output](4.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/4.png)
 
 #### What is MySQL?
 
@@ -97,7 +99,7 @@ To install MySql, use the below command
 
 ```$ apt-get install mysql-server php5-mysql```
 
-![Output](5.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/5.png)
 
 If there is any error in connecting MySql to PHP:
 
@@ -118,7 +120,7 @@ Note:If mbstring missing error occurs, then follow the below command
 
 ```$sudo apt-get install php5.6-mbstring php5.6-dom```
 
-![Output](6.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/6.png)
 
 #### What is Laravel?
 
@@ -133,7 +135,7 @@ $ cd /var/www
 $ apt-get install git
 $ git clone https://github.com/laravel/laravel.git
 ```
-![Output](7.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/7.png)
 
 Navigate to Laravel code directory and use composer to install all dependencies required for Laravel framework.
 
@@ -150,7 +152,7 @@ $ chmod -R 755 /var/www/laravel
 $ chmod -R 777 /var/www/laravel/app/storage
 ```
 
-![Output](8.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/8.png)
 
 ### Step-6:Set Encryption Key
 
@@ -172,18 +174,17 @@ Now edit config/app.php configuration file and update above generated applicatio
 
 ```$ php artisan serve```
 
-![Output](9.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/9.png)
 
 Your output will look like this
 
-![Output](output.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/output.png)
 
 ## For one click installation
 
 * ### [Shell Script](php-12.04.sh)
 
-
-﻿# <p align="center"> PHP INSTALLATION ON UBUNTU-14.04</p>
+# <p align="center"> PHP INSTALLATION ON UBUNTU-14.04</p>
 
 #### What is PHP?
 
@@ -218,7 +219,7 @@ First, we need to update our local package index to make sure we have a fresh li
 
 ```$ apt-get update```
 
-![Output](1.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/1.png)
 
 ### Step-1:Installing PHP
 
@@ -230,9 +231,9 @@ $ apt-get update
 $ apt-get install -y php5.6 php5.6-mcrypt php5.6-gd
 ```
 
-![Output](2.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/2.png)
 
-![Output](3.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/3.png)
 
 * Note:If there is an error in add-apt-repository, then try below command
 ```
@@ -253,7 +254,7 @@ To install Apache2, use the following command
 
 ```$ apt-get install apache2 libapache2-mod-php5```
 
-![Output](4.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/4.png)
 
 #### What is MySQL?
 
@@ -273,7 +274,7 @@ To install MySql, use the below command
 
 ```$ apt-get install mysql-server php5-mysql```
 
-![Output](5.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/5.png)
 
 If there is any error in connecting MySql to PHP:
 
@@ -294,7 +295,7 @@ Note:If mbstring missing error occurs, then follow the below command
 
 ```$sudo apt-get install php5.6-mbstring php5.6-dom```
 
-![Output](6.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/6.png)
 
 #### What is Laravel?
 
@@ -309,7 +310,7 @@ $ cd /var/www
 $ apt-get install git
 $ git clone https://github.com/laravel/laravel.git
 ```
-![Output](7.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/7.png)
 
 Navigate to Laravel code directory and use composer to install all dependencies required for Laravel framework.
 
@@ -326,7 +327,7 @@ $ chmod -R 755 /var/www/laravel
 $ chmod -R 777 /var/www/laravel/app/storage
 ```
 
-![Output](8.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/8.png)
 
 ### Step-6:Set Encryption Key
 
@@ -348,19 +349,17 @@ Now edit config/app.php configuration file and update above generated applicatio
 
 ```$ php artisan serve```
 
-![Output](9.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/9.png)
 
 Your output will look like this
 
-![Output](output.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/output.png)
 
 ## For one click installation
 
 * ### [Shell Script](php-14.04.sh)
 
 
-﻿# <p align="center"> PHP INSTALLATION ON UBUNTU-16.04</p>
-
 #### What is PHP?
 
  PHP is a open source, interpreted and object-oriented scripting language i.e. executed at server side. It is used to develop web applications (an application i.e. executed at server side and generates dynamic page).
@@ -394,7 +393,7 @@ First, we need to update our local package index to make sure we have a fresh li
 
 ```$ apt-get update```
 
-![Output](1.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/1.png)
 
 ### Step-1:Installing PHP
 
@@ -406,9 +405,9 @@ $ apt-get update
 $ apt-get install -y php5.6 php5.6-mcrypt php5.6-gd
 ```
 
-![Output](2.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/2.png)
 
-![Output](3.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/3.png)
 
 * Note:If there is an error in add-apt-repository, then try below command
 ```
@@ -429,7 +428,7 @@ To install Apache2, use the following command
 
 ```$ apt-get install apache2 libapache2-mod-php5```
 
-![Output](4.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/4.png)
 
 #### What is MySQL?
 
@@ -449,7 +448,7 @@ To install MySql, use the below command
 
 ```$ apt-get install mysql-server php5-mysql```
 
-![Output](5.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/5.png)
 
 If there is any error in connecting MySql to PHP:
 
@@ -470,7 +469,7 @@ Note:If mbstring missing error occurs, then follow the below command
 
 ```$sudo apt-get install php5.6-mbstring php5.6-dom```
 
-![Output](6.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/6.png)
 
 #### What is Laravel?
 
@@ -485,7 +484,7 @@ $ cd /var/www
 $ apt-get install git
 $ git clone https://github.com/laravel/laravel.git
 ```
-![Output](7.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/7.png)
 
 Navigate to Laravel code directory and use composer to install all dependencies required for Laravel framework.
 
@@ -502,7 +501,7 @@ $ chmod -R 755 /var/www/laravel
 $ chmod -R 777 /var/www/laravel/app/storage
 ```
 
-![Output](8.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/8.png)
 
 ### Step-6:Set Encryption Key
 
@@ -524,11 +523,11 @@ Now edit config/app.php configuration file and update above generated applicatio
 
 ```$ php artisan serve```
 
-![Output](9.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/9.png)
 
 Your output will look like this
 
-![Output](output.png)
+![Output](https://github.com/Greycampus/phplaravel/blob/master/Images/output.png)
 
 ## For one click installation
 
@@ -602,7 +601,7 @@ This command will start a development server at http://localhost:8000:
 
 Your output will look like this
 
-![Hello world](hello.png)
+![Hello world](https://github.com/Greycampus/phplaravel/blob/master/Images/hello.png)
 
 * ### Step-5:
 
@@ -644,7 +643,7 @@ Now if you want view the about page, then change the url to http://localhost:800
 
 Your output will look like this
 
-![AboutUs](about.png)
+![AboutUs](https://github.com/Greycampus/phplaravel/blob/master/Images/about.png)
 
 Note: If there occurs an error like Failed to listen on localhost:8000 (reason: Address already in use)
 
