@@ -58,6 +58,7 @@ Now test the nginx, using the command
 Because we modified the default server block file, which is already enabled, we simply need to restart Nginx for our configuration changes to be picked up:
 
 ```sudo service nginx restart```
+
 [output](nginx1.png)
 
 Now go to the browser and type your domain name
