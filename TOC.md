@@ -34,14 +34,14 @@
 11. Get and Post methods
 12. Regular Expression
 13. Object oriented
-   * Class 
-   * Object 
-   * Inheritance 
-   * Polymorphism 
-   * Overloading 
-   * Data Abstraction 
-   * Encapsulation 
-   * Constructor & Destructor
+    * Class 
+    * Object 
+    * Inheritance 
+    * Polymorphism 
+    * Overloading 
+    * Data Abstraction 
+    * Encapsulation 
+    * Constructor & Destructor
 14. Serialization
 15. Cookies
 16. Sessions
