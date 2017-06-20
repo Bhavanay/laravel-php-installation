@@ -261,10 +261,13 @@ You already have seen many functions like fopen() and fread() etc. They are buil
 
 #### 10. GET and POST methods:
 There are two ways the browser client can send information to the web server:
-The GET Method
-  * The GET method sends the encoded user information appended to the page request. The page and the encoded information are separated by the ? character.
+  * The GET Method
+
+The GET method sends the encoded user information appended to the page request. The page and the encoded information are separated by the ? character.
+
 ``` http://www.test.com/index.htm?name1=value1&name2=value2 ```
   * The POST Method
+
 The POST method transfers information via HTTP headers. The information is encoded as described in case of GET method and put into a header called QUERY_STRING.
 
 #### 11. Regular Expressions:
@@ -274,15 +277,19 @@ The POST method transfers information via HTTP headers. The information is encod
 The structure of a POSIX regular expression is not dissimilar to that of a typical arithmetic expression: various elements (operators) are combined to form more complex expressions.
 The simplest regular expression is one that matches a single character, such as g, inside strings such as g, haggle, or bag.
   1. Brackets
+
 Brackets ([]) have a special meaning when used in the context of regular expressions. They are used to find a range of characters.
 Eg: [0-9],[a-z]
   2. Quantifiers
+
 The frequency or position of bracketed character sequences and single characters can be denoted by a special character. Each special character having a specific connotation. The +, *, ?, {int. range}, and $ flags all follow a character sequence.
 Eg:p+,p*,p?
 
 * PERL Style Regular Expressions
+
 Perl-style regular expressions are similar to their POSIX counterparts. The POSIX syntax can be used almost interchangeably with the Perl-style regular expression functions. In fact, you can use any of the quantifiers introduced in the previous POSIX section.
   - Meta characters
+
 A meta character is simply an alphabetical character preceded by a backslash that acts to give the combination a special meaning.
 For instance, you can search for large money sums using the '\d' meta character: /([\d]+)000/, Here \d will search for any string of numerical character.
 
@@ -311,9 +318,7 @@ Cookies are text files stored on the client computer and they are kept of use tr
 There are three steps involved in identifying returning users:
 
   * Server script sends a set of cookies to the browser. For example name, age, or identification number etc.
-
   * Browser stores this information on local machine for future use.
-
   * When next time browser sends any request to web server then it sends those cookies information to the server and server uses that information to identify the user.
 
 #### 15. Sessions:
