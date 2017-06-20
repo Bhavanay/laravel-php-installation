@@ -1,4 +1,4 @@
-1. ﻿Introduction:
+#### 1. ﻿Introduction:
 
 The PHP Hypertext Preprocessor (PHP) is a programming language that allows web developers to create dynamic content that interacts with databases. PHP is basically used for developing web based software applications.This PHP tutorial covers all the topics of PHP such as introduction, control statements, functions, array, string, file handling, regular expression, object-oriented programming in PHP.
 
@@ -16,7 +16,7 @@ Lerdorf combined PHP with his own Form Interpreter, releasing the combination pu
   * Compatibility: PHP is compatible with almost all local servers used today like Apache, IIS etc.
   * Embedded: PHP code can be easily embedded within HTML tags and script.
 
-2. Variables:
+#### 2. Variables:
 
 A variable in PHP is a name of memory location that holds data. In PHP, a variable is declared using $ sign followed by variable name. 
 Syntax of declaring a variable is:
@@ -33,7 +33,7 @@ Syntax of declaring a variable is:
    5. Constant:
 	A constant is a name or an identifier for a simple value. A constant value cannot change during the execution of the script. By default, a constant is case-sensitive.To define a constant you have to use define() function and to retrieve the value of a constant, you have to simply specifying its name.You can also use the function constant() to read a constant's value if you wish to obtain the constant's name dynamically.
 
-3. Data types:
+#### 3. Data types:
 
 PHP has a total of eight data types which we use to construct our variables −
   * Integers − are whole numbers, without a decimal point, like 4195.
@@ -45,7 +45,7 @@ PHP has a total of eight data types which we use to construct our variables −
   * Objects − are instances of programmer-defined classes, which can package up both other kinds of values and functions that are specific to the class.
   * Resources − are special variables that hold references to resources external to PHP (such as database connections).
 
-4. Typecasting:
+#### 4. Typecasting:
 
 Type casting in PHP works much as it does in C: the name of the desired type is written in parentheses before the variable which is to be cast.
 The casts allowed are:
@@ -57,7 +57,7 @@ The casts allowed are:
   * (object) - cast to object
   * (unset) - cast to NULL (PHP 5)
 
-5. Operators:
+#### 5. Operators:
 
 PHP language supports following type of operators.
   - Arithmetic Operators 
@@ -70,8 +70,8 @@ PHP language supports following type of operators.
 
 These are following arithmetic operators supported by PHP language :
 
-| Operator | Description |
-| --- | --- | --- |
+ Operator | Description 
+| --- | --- |
 | + | Adds two operands |
 | - | Subtracts second operand from the first |
 | * | Multiply both operands |
@@ -84,7 +84,7 @@ These are following arithmetic operators supported by PHP language :
 These are following comparison operators supported by PHP language
 
 | Operator | Description |
-| --- | --- | --- |
+| --- | --- |
 | == | Checks if the value of two operands are equal or not, if yes then condition becomes true |
 | != | Checks if the value of two operands are equal or not, if values are not equal then condition becomes true |
 | > | Checks if the value of left operand is greater than the value of right operand, if yes then condition becomes true |
@@ -95,7 +95,7 @@ These are following comparison operators supported by PHP language
   * Logical Operators
 These are following logical operators supported by PHP language
 | Operator | Description |
-| --- | --- | --- |
+| --- | --- |
 | and |If both the operands are true then condition becomes true |
 | or | If any of the two operands are non zero then condition becomes true |
 | && | If both the operands are non zero then condition becomes true |
@@ -106,7 +106,7 @@ These are following logical operators supported by PHP language
   * Assignment Operators
 There are following assignment operators supported by PHP language 
 | Operator | Description |
-| --- | --- | --- |
+| --- | --- | 
 | = | Assigns values from right side operands to left side operand |
 | += | It adds right operand to the left operand and assign the result to left operand |
 | -= | It subtracts right operand from the left operand and assign the result to left operand |
@@ -120,7 +120,7 @@ There is one more operator called conditional operator. This first evaluates an 
 syntax: ? :
 If Condition is true ? Then value X : Otherwise value Y
 
-6. Control structures:
+#### 6. Control structures:
 
  1. Decision making:
 
@@ -221,7 +221,7 @@ The PHP continue keyword is used to halt the current iteration of a loop but it 
 Just like the break statement the continue statement is situated inside the statement block containing the code that the loop executes, preceded by a conditional test. For the pass encountering continue statement, rest of the loop code is skipped and next pass starts.
 
 
-7. Array:
+#### 7. Array:
 
 An array is a data structure that stores one or more similar type of values in a single value. For example if you want to store 100 numbers then instead of defining 100 variables its easy to define an array of 100 length.
 
@@ -230,7 +230,7 @@ There are three different kind of arrays and each array value is accessed using 
   * Associative array − An array with strings as index. This stores element values in association with key values rather than in a strict linear index order.
   * Multidimensional array − An array containing one or more arrays and values are accessed using multiple indices.
 
-8. File Handling:
+#### 8. File Handling:
 
 PHP has several functions for creating, reading, uploading, and editing files.
   * The readfile() function reads a file and writes it to the output buffer.
@@ -240,13 +240,13 @@ PHP has several functions for creating, reading, uploading, and editing files.
   * The fgets() function is used to read a single line from a file.
   * The feof() function checks if the "end-of-file" (EOF) has been reached.
 
-9. Functions:
+#### 9. Functions:
 
 PHP functions are similar to other programming languages. A function is a piece of code which takes one more input in the form of parameter and does some processing and returns a value.
 
 You already have seen many functions like fopen() and fread() etc. They are built-in functions but PHP gives you option to create your own functions as well and you just need to call them according to your requirement.
 
-10. GET and POST methods:
+#### 10. GET and POST methods:
 There are two ways the browser client can send information to the web server:
 The GET Method
   * The GET method sends the encoded user information appended to the page request. The page and the encoded information are separated by the ? character.
@@ -254,7 +254,7 @@ The GET Method
   * The POST Method
 The POST method transfers information via HTTP headers. The information is encoded as described in case of GET method and put into a header called QUERY_STRING.
 
-11. Regular Expressions:
+#### 11. Regular Expressions:
 
  * POSIX Regular Expressions
 
@@ -273,7 +273,7 @@ Perl-style regular expressions are similar to their POSIX counterparts. The POSI
 A meta character is simply an alphabetical character preceded by a backslash that acts to give the combination a special meaning.
 For instance, you can search for large money sums using the '\d' meta character: /([\d]+)000/, Here \d will search for any string of numerical character.
 
-12. Object-Oriented:
+#### 12. Object-Oriented:
 
   * Class − This is a programmer-defined data type, which includes local functions as well as local data. You can think of a class as a template for making many instances of the same kind (or class) of object.
   * Object − An individual instance of the data structure defined by a class. You define a class once and then make many objects that belong to it. Objects are also known as instance.
@@ -285,13 +285,13 @@ For instance, you can search for large money sums using the '\d' meta character:
   * Constructor − refers to a special type of function which will be called automatically whenever there is an object formation from a class.
   * Destructor − refers to a special type of function which will be called automatically whenever an object is deleted or goes out of scope.
 
-13. Serialization:
+#### 13. Serialization:
 
 Generates a storable representation of a value. This is useful for storing or passing PHP values around without losing their type and structure.
 
 ``` Serialize(value) ```
 
-14. Cookies:
+#### 14. Cookies:
 
 Cookies are text files stored on the client computer and they are kept of use tracking purpose. PHP transparently supports HTTP cookies.
 
@@ -303,7 +303,7 @@ There are three steps involved in identifying returning users:
 
   * When next time browser sends any request to web server then it sends those cookies information to the server and server uses that information to identify the user.
 
-15. Sessions:
+#### 15. Sessions:
 
 An alternative way to make data accessible across the various pages of an entire website is to use a PHP Session.
 
@@ -311,7 +311,7 @@ A session creates a file in a temporary directory on the server where registered
 
 A session ends when the user loses the browser or after leaving the site, the server will terminate the session after a predetermined period of time, commonly 30 minutes duration.
 
-16. Email:
+#### 16. Email:
 
 * Sending plain text email
 
@@ -329,7 +329,7 @@ To send an email with mixed content requires to set Content-type header to mu
 
 A boundary is started with two hyphens followed by a unique number which can not appear in the message part of the email. A PHP function md5() is used to create a 32 digit hexadecimal number to create unique number. A final boundary denoting the email's final section must also end with two hyphens.
 
-17. Exception handling:
+#### 17. Exception handling:
 
 When an exception is thrown, the code following it will not be executed, and PHP will try to find the matching "catch" block. If an exception is not caught, a fatal error will be issued with an "Uncaught Exception" message.
 
@@ -338,7 +338,7 @@ Proper exception code should include:
 2. Throw - This is how you trigger an exception. Each "throw" must have at least one "catch"
 3. Catch - A "catch" block retrieves an exception and creates an object containing the exception information
 
-18. Iterators:
+#### 18. Iterators:
 
 An iterator is an object that represents a stream of data. Unlike a sequence, an iterator can (usually) only provide the next item. The for-in statement uses iterators to control the loop, and iterators can also be used in many other contexts.
 
