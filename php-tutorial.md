@@ -66,7 +66,7 @@ PHP language supports following type of operators.
   - Assignment Operators 
   - Conditional (or ternary) Operators 
 
-  * Arithmetic Operators
+#### Arithmetic Operators
 
 These are following arithmetic operators supported by PHP language :
 
@@ -80,7 +80,8 @@ These are following arithmetic operators supported by PHP language :
 | ++ | Increment operator, increases integer value by one |
 | -- | Decrement operator, decreases integer value by one |
 
-  * Comparison Operators
+#### Comparison Operators
+
 These are following comparison operators supported by PHP language
 
 | Operator | Description |
@@ -92,8 +93,10 @@ These are following comparison operators supported by PHP language
 | >= | Checks if the value of left operand is greater than or equal to the value of right operand, if yes then condition becomes true |
 | <= | Checks if the value of left operand is less than or equal to the value of right operand, if yes then condition becomes true |
 
-  * Logical Operators
+#### Logical Operators
+
 These are following logical operators supported by PHP language
+
 | Operator | Description |
 | --- | --- |
 | and |If both the operands are true then condition becomes true |
@@ -102,9 +105,10 @@ These are following logical operators supported by PHP language
 | || | If any of the two operands are non zero then condition becomes true |
 | ! | If a condition is true then Logical NOT operator will make false |
 
+#### Assignment Operators
 
-  * Assignment Operators
-There are following assignment operators supported by PHP language 
+There are following assignment operators supported by PHP language
+ 
 | Operator | Description |
 | --- | --- | 
 | = | Assigns values from right side operands to left side operand |
@@ -115,14 +119,15 @@ There are following assignment operators supported by PHP language
 | %= | It takes modulus using two operands and assign the result to left operand |
 
 
-  * Conditional Operator
+#### Conditional Operator
+
 There is one more operator called conditional operator. This first evaluates an expression for a true or false value and then execute one of the two given statements depending upon the result of the evaluation. The conditional operator has this syntax −
 syntax: ? :
-If Condition is true ? Then value X : Otherwise value Y
+``` If Condition is true ? Then value X : Otherwise value Y ```
 
 #### 6. Control structures:
 
- 1. Decision making:
+#### 1. Decision making:
 
 You can use conditional statements in your code to make your decisions. PHP supports following three decision making statements.
 - if else statement − use this statement if you want to execute a set of code when a condition is true and another if the condition is not true
@@ -133,27 +138,30 @@ You can use conditional statements in your code to make your decisions. PHP supp
 
 If you want to execute some code if a condition is true and another code if a condition is false, use the if....else statement.
 Syntax:
+```
 if (condition)
    code to be executed if condition is true;
 else
    code to be executed if condition is false;
-
+```
   * The ElseIf Statement
 
 If you want to execute some code if one of the several conditions are true use the elseif statement
 Syntax
+```
 if (condition)
    code to be executed if condition is true;
 elseif (condition)
    code to be executed if condition is true;
 else
    code to be executed if condition is false;
-
+```
   * The Switch Statement
 
 If you want to select one of many blocks of code to be executed, use the Switch statement.
 The switch statement is used to avoid long blocks of if..elseif..else code.
 Syntax
+```
 switch(expression){      
 case value1:      
  //code to be executed  
@@ -165,8 +173,8 @@ case value2:      
 default:       
  code to be executed if all cases are not matched;    
 }  
-
- 2. Loops
+```
+#### 2. Loops
 
 Often when you write code, you want the same block of code to run over and over again in a row. Instead of adding several almost equal code-lines in a script, we can use loops to perform a task like this.
 In PHP, we have the following looping statements:
@@ -179,35 +187,40 @@ In PHP, we have the following looping statements:
 
 The while loop executes a block of code as long as the specified condition is true.
 Syntax
+```
 while (condition is true) {
     code to be executed;
 } 
-
+```
   * The PHP do...while Loop
 
 The do...while loop will always execute the block of code once, it will then check the condition, and repeat the loop while the specified condition is true.
 Syntax
+```
 do {
     code to be executed;
 } while (condition is true); 
-
+```
 Notice that in a do while loop the condition is tested AFTER executing the statements within the loop. This means that the do while loop would execute its statements at least once, even if the condition is false the first time.
 
   * The PHP for Loop
 
 The for loop is used when you know in advance how many times the script should run.
 Syntax
+```
 for (init counter; test counter; increment counter) {
     code to be executed;
 } 
-
+```
   * The PHP foreach Loop
 
 The foreach loop works only on arrays, and is used to loop through each key/value pair in an array.
 Syntax
+```
 foreach ($array as $value) {
     code to be executed;
 } 
+```
 For every loop iteration, the value of the current array element is assigned to $value and the array pointer is moved by one, until it reaches the last array element.
 
   * The break statement
@@ -256,7 +269,7 @@ The POST method transfers information via HTTP headers. The information is encod
 
 #### 11. Regular Expressions:
 
- * POSIX Regular Expressions
+* POSIX Regular Expressions
 
 The structure of a POSIX regular expression is not dissimilar to that of a typical arithmetic expression: various elements (operators) are combined to form more complex expressions.
 The simplest regular expression is one that matches a single character, such as g, inside strings such as g, haggle, or bag.
@@ -267,7 +280,7 @@ Eg: [0-9],[a-z]
 The frequency or position of bracketed character sequences and single characters can be denoted by a special character. Each special character having a specific connotation. The +, *, ?, {int. range}, and $ flags all follow a character sequence.
 Eg:p+,p*,p?
 
- * PERL Style Regular Expressions
+* PERL Style Regular Expressions
 Perl-style regular expressions are similar to their POSIX counterparts. The POSIX syntax can be used almost interchangeably with the Perl-style regular expression functions. In fact, you can use any of the quantifiers introduced in the previous POSIX section.
   - Meta characters
 A meta character is simply an alphabetical character preceded by a backslash that acts to give the combination a special meaning.
