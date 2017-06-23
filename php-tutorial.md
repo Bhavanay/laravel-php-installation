@@ -102,7 +102,7 @@ These are following logical operators supported by PHP language
 | and |If both the operands are true then condition becomes true |
 | or | If any of the two operands are non zero then condition becomes true |
 | && | If both the operands are non zero then condition becomes true |
-| || | If any of the two operands are non zero then condition becomes true |
+| &#124;&#124; | If any of the two operands are non zero then condition becomes true |
 | ! | If a condition is true then Logical NOT operator will make false |
 
 #### Assignment Operators
@@ -272,20 +272,22 @@ The POST method transfers information via HTTP headers. The information is encod
 
 #### 11. Regular Expressions:
 
-* POSIX Regular Expressions
+1. POSIX Regular Expressions
 
 The structure of a POSIX regular expression is not dissimilar to that of a typical arithmetic expression: various elements (operators) are combined to form more complex expressions.
 The simplest regular expression is one that matches a single character, such as g, inside strings such as g, haggle, or bag.
-  1. Brackets
+
+  * Brackets
 
 Brackets ([]) have a special meaning when used in the context of regular expressions. They are used to find a range of characters.
 Eg: [0-9],[a-z]
-  2. Quantifiers
+
+  * Quantifiers
 
 The frequency or position of bracketed character sequences and single characters can be denoted by a special character. Each special character having a specific connotation. The +, *, ?, {int. range}, and $ flags all follow a character sequence.
 Eg:p+,p*,p?
 
-* PERL Style Regular Expressions
+2. PERL Style Regular Expressions
 
 Perl-style regular expressions are similar to their POSIX counterparts. The POSIX syntax can be used almost interchangeably with the Perl-style regular expression functions. In fact, you can use any of the quantifiers introduced in the previous POSIX section.
   - Meta characters
