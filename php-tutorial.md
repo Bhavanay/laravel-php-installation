@@ -133,7 +133,7 @@ syntax: ? :<br/>
 **6.1.1. The If...Else Statement**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you want to execute some code if a condition is true and another code if a condition is false, use the if....else statement.<br/>
-Syntax:<br/>
+Syntax:
 ```
 if (condition)
    code to be executed if condition is true;
@@ -142,8 +142,8 @@ else
 ```
 **6.1.2. The ElseIf Statement**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you want to execute some code if one of the several conditions are true use the elseif statement
-Syntax
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you want to execute some code if one of the several conditions are true use the elseif statement.<br/>
+Syntax:
 ```
 if (condition)
    code to be executed if condition is true;
@@ -155,7 +155,7 @@ else
 **6.1.3. The Switch Statement**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you want to select one of many blocks of code to be executed, use the Switch statement.
-The switch statement is used to avoid long blocks of if..elseif..else code.
+The switch statement is used to avoid long blocks of if..elseif..else code.<br/>
 Syntax
 ```
 switch(expression){      
@@ -324,7 +324,7 @@ There are three steps involved in identifying returning users:
 
 ``` mail( to, subject, message, headers, parameters ); ```
 
-**16.2. Sending HTML emai\**<br/>
+**16.2. Sending HTML email**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When you send a text message using PHP then all the content will be treated as simple text. Even if you will include HTML tags in a text message, it will be displayed as simple text and HTML tags will not be formatted according to HTML syntax. But PHP provides option to send an HTML message as actual HTML message.
 
 **16.3. Sending attachments with email**<br/>
