@@ -16,7 +16,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A variable in PHP is a name of memory location that holds data. In PHP, a variable is declared using $ sign followed by variable name. <br/>
 Syntax of declaring a variable is:<br/>
-    $variablename=value;<br/>
+    ```$variablename=value;```<br/>
 
 1. **Local variables:**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A variable declared in a function is considered local; that is, it can be referenced solely in that function. Any assignment outside of that function will be considered to be an entirely different variable from the one contained in the function.
@@ -134,12 +134,11 @@ syntax: ? :<br/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you want to execute some code if a condition is true and another code if a condition is false, use the if....else statement.<br/>
 Syntax:
-```
-if (condition)
+```if (condition)
    code to be executed if condition is true;
 else
-   code to be executed if condition is false;
-```
+   code to be executed if condition is false;```
+
 **6.1.2. The ElseIf Statement**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you want to execute some code if one of the several conditions are true use the elseif statement.<br/>
