@@ -102,7 +102,7 @@ These are following logical operators supported by PHP language
 | and |If both the operands are true then condition becomes true |
 | or | If any of the two operands are non zero then condition becomes true |
 | && | If both the operands are non zero then condition becomes true |
-| &#124;&#124; | If any of the two operands are non zero then condition becomes true |
+| &#124; &#124; | If any of the two operands are non zero then condition becomes true |
 | ! | If a condition is true then Logical NOT operator will make false |
 
 #### Assignment Operators
