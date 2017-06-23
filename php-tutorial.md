@@ -5,7 +5,7 @@
 **1.1. History:**</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHP was written in the C programming language by Rasmus Lerdorf in 1994 for use in monitoring his online resume and related personal information. Lerdorf combined PHP with his own Form Interpreter, releasing the combination publicly as PHP/FI (generally referred to as PHP 2.0) on June 8, 1995. Two programmers, Zeev Suraski and Andi Gutmans, rebuilt PHP's core, releasing the updated result as PHP/FI 2 in 1997.
 
-**1.2. Features**:<br/>
+**1.2. Features:**
   - Performance: Script written in PHP executes much faster then those scripts written in other languages such as JSP & ASP.
   - Open Source Software: PHP source code is free available on the web, you can developed all the version of PHP according to your requirement without paying any cost.
   - Platform Independent: PHP are available for WINDOWS, MAC, LINUX & UNIX operating system. A PHP application developed in one OS can be easily executed in other OS also.
@@ -18,15 +18,15 @@
 Syntax of declaring a variable is:<br/>
     $variablename=value;<br/>
 
-**1. Local variables:**<br/>
+1. **Local variables:**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A variable declared in a function is considered local; that is, it can be referenced solely in that function. Any assignment outside of that function will be considered to be an entirely different variable from the one contained in the function.
-**2. Functional parameters:**<br/>
+2. **Functional parameters:**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function parameters are declared after the function name and inside parentheses. They are declared much like a typical variable.
-**3. Global variables:**<br/>
+3. **Global variables:**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In contrast to local variables, a global variable can be accessed in any part of the program. However, in order to be modified, a global variable must be explicitly declared to be global in the function in which it is to be modified. This is accomplished, conveniently enough, by placing the keyword GLOBAL in front of the variable that should be recognized as global. Placing this keyword in front of an already existing variable tells PHP to use the variable having that name. 
-**4. Static variables:**<br/>
+4. **Static variables:**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The final type of variable scoping that I discuss is known as static. In contrast to the variables declared as function parameters, which are destroyed on the function's exit, a static variable will not lose its value when the function exits and will still hold that value should the function be called again.
-**5. Constant:**<br/>
+5. **Constant:**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A constant is a name or an identifier for a simple value. A constant value cannot change during the execution of the script. By default, a constant is case-sensitive.To define a constant you have to use define() function and to retrieve the value of a constant, you have to simply specifying its name.You can also use the function constant() to read a constant's value if you wish to obtain the constant's name dynamically.
 
 ### 3. Data types:
@@ -64,7 +64,7 @@ The casts allowed are:
 
 #### 5.1. Arithmetic Operators
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspThese are following arithmetic operators supported by PHP language :
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These are following arithmetic operators supported by PHP language :
 
 | Operator | Description |
 | --- | --- |
@@ -184,7 +184,8 @@ In PHP, we have the following looping statements:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The while loop executes a block of code as long as the specified condition is true.
 Syntax
 ```
-while (condition is true) {
+while (condition is true) 
+{
     code to be executed;
 } 
 ```
@@ -204,7 +205,8 @@ do {
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The for loop is used when you know in advance how many times the script should run.
 Syntax
 ```
-for (init counter; test counter; increment counter) {
+for (init counter; test counter; increment counter) 
+{
     code to be executed;
 } 
 ```
@@ -213,7 +215,8 @@ for (init counter; test counter; increment counter) {
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The foreach loop works only on arrays, and is used to loop through each key/value pair in an array.
 Syntax
 ```
-foreach ($array as $value) {
+foreach ($array as $value) 
+{
     code to be executed;
 } 
 ```
@@ -222,13 +225,12 @@ foreach ($array as $value) {
 **6.2.5. The break statement**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The PHP break keyword is used to terminate the execution of a loop prematurely.<br/>
-The break statement is situated inside the statement block. It gives you full control and whenever you want to exit from the loop you can come out. After coming out of a loop immediate statement to the loop will be executed.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The break statement is situated inside the statement block. It gives you full control and whenever you want to exit from the loop you can come out. After coming out of a loop immediate statement to the loop will be executed.
 
-**6.2.5. The continue statement**
+**6.2.6. The continue statement**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The PHP continue keyword is used to halt the current iteration of a loop but it does not terminate the loop.
 Just like the break statement the continue statement is situated inside the statement block containing the code that the loop executes, preceded by a conditional test. For the pass encountering continue statement, rest of the loop code is skipped and next pass starts.
-
 
 ### 7. Array:
 
@@ -256,32 +258,32 @@ There are three different kind of arrays and each array value is accessed using 
 ### 10. GET and POST methods:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are two ways the browser client can send information to the web server:<br/>
 
-**The GET Method**
+**The GET Method**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The GET method sends the encoded user information appended to the page request. The page and the encoded information are separated by the ? character.
 
 ``` http://www.test.com/index.htm?name1=value1&name2=value2 ```
 
-**The POST Method**
+**The POST Method**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The POST method transfers information via HTTP headers. The information is encoded as described in case of GET method and put into a header called QUERY_STRING.
 
 ### 11. Regular Expressions:
 
-1. POSIX Regular Expressions<br/>
+**11.1. POSIX Regular Expressions**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The structure of a POSIX regular expression is not dissimilar to that of a typical arithmetic expression: various elements (operators) are combined to form more complex expressions.<br/>
 The simplest regular expression is one that matches a single character, such as g, inside strings such as g, haggle, or bag.
 
-**Brackets**
+- **Brackets**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brackets ([]) have a special meaning when used in the context of regular expressions. They are used to find a range of characters.
 Eg: [0-9],[a-z]
 
-**Quantifiers**
+- **Quantifiers**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The frequency or position of bracketed character sequences and single characters can be denoted by a special character. Each special character having a specific connotation. The +, *, ?, {int. range}, and $ flags all follow a character sequence.
 Eg:p+,p*,p?
 
-2. PERL Style Regular Expressions<br/>
+**11.2. PERL Style Regular Expressions**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Perl-style regular expressions are similar to their POSIX counterparts. The POSIX syntax can be used almost interchangeably with the Perl-style regular expression functions. In fact, you can use any of the quantifiers introduced in the previous POSIX section.
 
-**Meta characters**
+- **Meta characters**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A meta character is simply an alphabetical character preceded by a backslash that acts to give the combination a special meaning. For instance, you can search for large money sums using the '\d' meta character: /([\d]+)000/, Here \d will search for any string of numerical character.
 
 ### 12. Object-Oriented:
@@ -312,8 +314,7 @@ There are three steps involved in identifying returning users:
 
 ### 15. Sessions:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An alternative way to make data accessible across the various pages of an entire website is to use a PHP Session.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A session creates a file in a temporary directory on the server where registered session variables and their values are stored. This data will be available to all pages on the site during that visit.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An alternative way to make data accessible across the various pages of an entire website is to use a PHP Session.A session creates a file in a temporary directory on the server where registered session variables and their values are stored. This data will be available to all pages on the site during that visit.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A session ends when the user loses the browser or after leaving the site, the server will terminate the session after a predetermined period of time, commonly 30 minutes duration.
 
 ### 16. Email:
@@ -323,7 +324,7 @@ There are three steps involved in identifying returning users:
 
 ``` mail( to, subject, message, headers, parameters ); ```
 
-**16.2. Sending HTML emai**<br/>
+**16.2. Sending HTML emai\**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When you send a text message using PHP then all the content will be treated as simple text. Even if you will include HTML tags in a text message, it will be displayed as simple text and HTML tags will not be formatted according to HTML syntax. But PHP provides option to send an HTML message as actual HTML message.
 
 **16.3. Sending attachments with email**<br/>
