@@ -1,4 +1,4 @@
-### 1. ﻿Introduction:
+### ﻿Introduction:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The PHP Hypertext Preprocessor (PHP) is a programming language that allows web developers to create dynamic content that interacts with databases. PHP is basically used for developing web based software applications.This PHP tutorial covers all the topics of PHP such as introduction, control statements, functions, array, string, file handling, regular expression, object-oriented programming in PHP.
 * PHP is a server side scripting language.
